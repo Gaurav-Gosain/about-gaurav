@@ -18,14 +18,14 @@
   },
   "main": "index.js",
   "bin": {
-    "arkadip": "index.js"
+    "gauravgosain": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Gaurav-Gosain/npx-portfolio"
   },
   "scripts": {
-    "test": "node index.js",
+    "test": "node --experimental-modules index.js",
     "preversion": "git add CHANGELOG.md"
   },
   "dependencies": {

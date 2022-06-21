@@ -31,7 +31,6 @@ const data = {
     labelCard: chalk.white.bold("Card:"),
 
     email: 'gauravgosain01@gmail.com',
-    // resume_link: "https://drive.google.com/file/d/1k_g-D_Ylju8tLB4wwoU8D6LMoI9PP-TC/view?usp=sharing"
 }
 
 const me = boxen(
