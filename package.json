@@ -2,7 +2,7 @@
   "name": "gauravgosain",
   "version": "1.1.1",
   "description": "NPX Card for Gaurav Gosain",
-  "homepage": "https://github.com/Gaurav-Gosain/npx-portfolio",
+  "homepage": "https://github.com/Gaurav-Gosain/gauravgosain",
   "keywords": [
     "gauravgosain",
     "npx",
@@ -17,23 +17,49 @@
     "name": "Gaurav Gosain",
     "email": "gauravgosain01@gmail.com"
   },
-  "main": "index.js",
+  "main": "./src/index.js",
   "bin": {
-    "gauravgosain": "index.js"
+    "gauravgosain": "./bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gaurav-Gosain/npx-portfolio"
+    "url": "git+https://github.com/Gaurav-Gosain/gauravgosain.git"
   },
   "scripts": {
-    "test": "node index.js",
-    "preversion": "git add CHANGELOG.md"
+    "build": "rimraf bin/* && babel --source-maps -d bin/ src/",
+    "start": "npm run build -- --watch",
+    "prepublish": "npm run -s build",
+    "release": "semantic-release",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "commitizen": "^4.2.4",
+    "core-js": "^3.21.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.2"
   },
   "dependencies": {
-    "boxen": "^6.2.1",
+    "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
-    "inquirer": "^8.0.0",
-    "open": "^8.0.4"
+    "inquirer": "^7.3.2",
+    "open": "^7.0.4"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=6.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
