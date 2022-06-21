@@ -1,0 +1,38 @@
+{
+  "name": "gaurav",
+  "version": "1.1.1",
+  "description": "NPX Card for Gaurav Gosain",
+  "keywords": [
+    "gaurav",
+    "npx",
+    "npx gaurav",
+    "npx card"
+  ],
+  "bugs": {
+    "email": "gauravgosain01@gmail.com"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Gaurav Gosain",
+    "email": "gauravgosain01@gmail.com"
+  },
+  "main": "index.js",
+  "bin": {
+    "arkadip": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gaurav-Gosain/npx-portfolio"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "preversion": "git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "inquirer": "^8.0.0",
+    "open": "^8.0.4"
+  }
+}
