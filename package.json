@@ -18,9 +18,7 @@
     "email": "gauravgosain01@gmail.com"
   },
   "main": "./src/index.js",
-  "bin": {
-    "gaurav_gosain": "./bin/index.js"
-  },
+  "bin": "./bin/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gaurav-Gosain/gaurav_gosain.git"
