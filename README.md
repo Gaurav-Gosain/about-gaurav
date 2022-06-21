@@ -1,9 +1,9 @@
 <h1 align="center">
-    <i>npx gaurav</i>
+    <i>npx gauravgosain</i>
 </h1>
 
 ```bash
-> npx gaurav
+> npx gauravgosain
 ```
 
 <p align="center">
