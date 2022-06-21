@@ -17,9 +17,6 @@
     "email": "gauravgosain01@gmail.com"
   },
   "main": "index.js",
-  "bin": {
-    "gauravgosain": "index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Gaurav-Gosain/npx-portfolio"
