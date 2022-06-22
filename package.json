@@ -1,12 +1,12 @@
 {
-  "name": "gaurav-gosain",
+  "name": "about-gaurav",
   "version": "1.1.0",
   "description": "NPX Card for Gaurav Gosain",
-  "homepage": "https://github.com/Gaurav-Gosain/npx-card",
+  "homepage": "https://github.com/Gaurav-Gosain/about-gaurav",
   "keywords": [
     "gauravgosain",
     "npx",
-    "npx gaurav-gosain",
+    "npx about-gaurav",
     "npx card"
   ],
   "bugs": {
@@ -21,7 +21,7 @@
   "bin": "./bin/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gaurav-Gosain/npx-card.git"
+    "url": "git+https://github.com/Gaurav-Gosain/about-gaurav.git"
   },
   "scripts": {
     "build": "rimraf bin/* && babel --source-maps -d bin/ src/",
