@@ -22,5 +22,5 @@
     🚀 My own Portfolio Card
 </p>
 <p align="center">
-    ⚠️Make sure you have installed Node.js on you system
+    ⚠️Make sure you have installed <b><a href="https://nodejs.org/en/">Node.js</a></b> on you system
 </p>
