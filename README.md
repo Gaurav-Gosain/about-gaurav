@@ -10,7 +10,7 @@
         <img alt="NPM" title="Node Package Manager" src="https://img.shields.io/badge/NPM-informational?style=flat-sqaure&logo=npm&logoColor=black&color=CB3837">
     </a>
     <a href="https://nodejs.org/en/">
-        <img alt="Node.js" title="Node.js" src="https://img.shields.io/badge/JavaScript-informational?style=flat-sqaure&logo=JavaScript&logoColor=black&color=F7DF1E">
+        <img alt="Node.js" title="Node.js" src="https://img.shields.io/badge/Node.js-informational?style=flat-sqaure&logo=Node.js&logoColor=white&color=339933">
     </a>
     <a href="https://www.gnu.org/software/bash/">
         <img alt="Bash" title="Bash" src="https://img.shields.io/badge/Bash-informational?style=flat-sqaure&logo=gnubash&logoColor=white&color=4EAA25">
